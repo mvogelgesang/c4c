@@ -16,14 +16,27 @@
 		<script src="https://use.fontawesome.com/3444a783a6.js"></script>
 	</head>
 	<body class="c4c-navy-bg">
-		<header class="show-up-for-large">
-			<nav class="navigation">
+		<div class="nav-secondary" style="overflow: hidden; display: none;">
+	    <div class="row">
+	      <div class="large-3 columns">
+	        <h4 class="logo-dark">Société-Orignal</h4>
+	      </div>
+	      <div class="small-9 columns text-right show-for-large-up navlinks2">
+	        <a href="#feature" class="scroll">Manifesto</a>
+	        <a href="#projets" class="scroll">Projects</a>
+	        <a href="#" data-reveal-id="videoModal">Video</a>
+	        <a href="#boutique" class="scroll">Boutique</a>
+	        <a href="#contact" class="scroll">Contact</a>
+	        <a href="http://www.societe-orignal.com" class="langue-fr">Fr</a>
+	      </div>
+	    </div>
+	  </div>
+		<header class="show-for-small">
+			<nav class="navigation c4c-white">
 				<div class="row">
-					<div class="small-3 columns">
-						<img src="images/c4c_logo.png" style="height:50px" class="float-right">
-					</div>
-					<div class="small-6 columns show-up-for-large navlinks">
-						<ul class="menu">
+					<div class="small-12 columns show-for-small navlinks">
+						<ul class="vertical medium-horizontal menu">
+							<li class="menu-text"><a href="#"><img src="images/c4c_logo.png" style="height:50px; width: 50px;"></a></li>
 						  <li><a href="#">Item One</a></li>
 						  <li><a href="#">Item Two</a></li>
 						  <li><a href="#">Item Three</a></li>
@@ -31,14 +44,25 @@
 					</div>
 		    </div>
 		  </nav>
-		  <div>
+		  <div class="show-for-large">
 		  	<video autoplay="" muted="muted" loop="loop" poster="video.jpg" style="min-width: 100%; min-height:100%;">
 	        <source src="intro.mp4" type="video/mp4">
 	        <img src="video.jpg" width="100%" height="100%" alt="">
 	      </video>
 		  </div>
     </header>
+    <div class="c4c-white-bg" style="padding-top:10px;">
+    	<div class="row">
+    		<div class="large-6 columns">
+    			<p>Banh mi leggings chia swag. Tilde dreamcatcher heirloom meh, offal selvage raclette retro. Twee normcore echo park unicorn, migas master cleanse typewriter ennui pinterest meggings. Pour-over pok pok keffiyeh, raclette XOXO roof party taxidermy. Succulents ramps pitchfork tbh. Echo park retro scenester, jianbing master cleanse everyday carry pop-up mumblecore YOLO air plant dreamcatcher venmo portland VHS. Tilde pug keffiyeh flexitarian, air plant chia hella gluten-free umami kickstarter.</p>
+    		</div>
+    		<div class="large-6 columns">
+    			<p>Umami migas austin, lyft kombucha truffaut air plant pabst normcore you probably haven't heard of them quinoa. Cray disrupt fashion axe brunch. Letterpress franzen coloring book listicle 8-bit. Ugh four loko blue bottle flexitarian pok pok iPhone. Bushwick gochujang next level, synth locavore shoreditch chia mumblecore air plant letterpress. Sustainable helvetica gochujang normcore yuccie chicharrones 8-bit, fingerstache knausgaard before they sold out etsy church-key. Before they sold out hashtag stumptown williamsburg.<br />
 
+					Literally selvage thundercats four loko hashtag umami poke, echo park migas semiotics four dollar toast gastropub man braid authentic ramps. Neutra tilde deep v twee jianbing. La croix schlitz tofu lyft, direct trade vegan copper mug bushwick bitters celiac cray skateboard. Craft beer yr blue bottle cornhole health goth. Post-ironic distillery schlitz authentic shoreditch, bushwick 90's. Mustache lomo copper mug 8-bit next level. Fap kogi lumbersexual stumptown XOXO.</p>
+    		</div>
+    	</div>
+    </div>
     <footer class="c4c-white c4c-navy-bg">
     	<div class="row" style="padding-top:25px;">
 			  <div class="large-3 columns">
@@ -56,18 +80,19 @@
 					</form>
 			  </div>
 			  <div class="large-3 columns">
-			  	<h3>Social</h3>
-			  	<ul class="no-bullet">
-			  		<li>
-			  			<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
-			  		</li>
-			  		<li>
-			  			<i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
-			  		</li>
-			  		<li>
-			  			<i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
-			  		</li>
-			  </ul>
+			  	<div class="menu-centered">
+				  	<ul class="menu footer">
+				  		<li>
+				  			<a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+				  		</li>
+				  		<li>
+				  			<a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+				  		</li>
+				  		<li>
+				  			<a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+				  		</li>
+				  	</ul>
+					</div>
 			  </div>
 			</div>
     </footer>
