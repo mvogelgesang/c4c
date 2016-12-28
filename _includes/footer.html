@@ -1,0 +1,46 @@
+<footer class="c4c-white c4c-navy-bg">
+	<div class="row" style="padding-top:25px;">
+	  <div class="large-3 columns">
+	  	<h3>About Us</h3>
+	  	<p>Hammock hoodie tousled copper mug. Paleo tofu umami, fashion axe vexillologist neutra 90's asymmetrical listicle echo park hexagon gochujang fam. Craft beer vice copper mug, scenester tousled unicorn health goth trust fund</p>
+	  </div>
+	  <div class="large-6 columns">
+	  	<h3>Stay in Touch</h3>
+	  	<form>
+	  		<div class="input-group">
+			    <span class="input-group-label">E-mail</span>
+			    <input class="input-group-field" type="url">
+			    <a class="input-group-button button c4c-green-bg">Submit</a>
+			  </div>
+			</form>
+	  </div>
+	  <div class="large-3 columns">
+	  	<div class="menu-centered">
+		  	<ul class="menu footer">
+		  		{% for social in site.social %}
+          	{% if social.url != null %}
+	          	<li>
+		            <a href="{{ social.url }}" title="{{ social.desc }}">
+		              <i class="fa fa-{{ social.icon }} fa-2x" aria-hidden="true"></i>
+		              <!-- <span class="username">{% if social.username %}{{ social.username }}{% else %}{{ social.name }}{% endif %}</span> -->
+		            </a>
+		          </li>
+	          {% endif %}
+	        {% endfor %}
+		  		<!-- <li>
+		  			<a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+		  		</li>
+		  		<li>
+		  			<a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+		  		</li>
+		  		<li>
+		  			<a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+		  		</li> -->
+		  	</ul>
+			</div>
+	  </div>
+	</div>
+</footer>
+
+
+          
